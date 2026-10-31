@@ -1,0 +1,76 @@
+{
+  "squad": "maximus-pericias-instagram",
+  "status": "completed",
+  "step": {
+    "current": 12,
+    "total": 12,
+    "label": "step-12-publish-instagram"
+  },
+  "agents": [
+    {
+      "id": "mario-minerador",
+      "name": "Mário Minerador",
+      "icon": "🔍",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "breno-branding",
+      "name": "Breno Branding",
+      "icon": "🧠",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "flavio-feed",
+      "name": "Flávio Feed",
+      "icon": "📱",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "renato-reels",
+      "name": "Renato Reels",
+      "icon": "🎬",
+      "status": "done",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "soraia-stories",
+      "name": "Soraia Stories",
+      "icon": "⚡",
+      "status": "done",
+      "desk": { "col": 2, "row": 2 }
+    },
+    {
+      "id": "davi-designer",
+      "name": "Davi Designer",
+      "icon": "🎨",
+      "status": "done",
+      "desk": { "col": 3, "row": 2 }
+    },
+    {
+      "id": "vera-veredito",
+      "name": "Vera Veredito",
+      "icon": "⚖️",
+      "status": "done",
+      "desk": { "col": 1, "row": 3 }
+    },
+    {
+      "id": "paulo-publicador",
+      "name": "Paulo Publicador",
+      "icon": "🚀",
+      "status": "done",
+      "desk": { "col": 2, "row": 3 }
+    }
+  ],
+  "handoff": {
+    "from": "vera-veredito",
+    "to": "paulo-publicador",
+    "message": "Carrossel de 8 slides e vídeo Reels publicados com sucesso em @maximus.pericias.",
+    "completedAt": "2026-10-29T16:31:31-03:00"
+  },
+  "startedAt": "2026-10-29T15:59:30-03:00",
+  "completedAt": "2026-10-29T16:32:10-03:00",
+  "updatedAt": "2026-10-29T16:32:10-03:00"
+}

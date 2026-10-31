@@ -1,0 +1,10 @@
+path,displayName,title,icon,role
+./agents/mario-minerador.agent.md,Mário Minerador,Analista Forense de Produto e Mídia Sintética,🔍,Extrai mecanismos reais e quadros exatos da Landing Page e dos 2 vídeos oficiais
+./agents/breno-branding.agent.md,Breno Branding,Estrategista de Posicionamento e Narrativa em 3 Atos,🧠,Aplica o filtro Steve Jobs e gera 5 ângulos persuasivos em 3 atos
+./agents/flavio-feed.agent.md,Flávio Feed,Criador de Carrosséis e Posts de Feed Instagram,📱,Redige carrosséis de 8 a 10 lâminas com 40 a 80 palavras por lâmina e 3 ganchos
+./agents/renato-reels.agent.md,Renato Reels,Roteirista e Diretor de Instagram Reels,🎬,Cria roteiros verticais 9:16 com cortes dos vídeos locais e loop contínuo
+./agents/soraia-stories.agent.md,Soraia Stories,Estrategista de Sequências de Stories,⚡,Desenvolve sequências de 4 a 6 quadros verticais com enquete binária e conversão
+./agents/davi-designer.agent.md,Davi Designer,Arquiteto Visual e Renderizador HTML/CSS,🎨,Converte os conteúdos aprovados em HTML/CSS no Sistema Unificado A+B+C e renderiza PNG/JPEG via Playwright
+./agents/vera-veredito.agent.md,Vera Veredito,Auditora de Qualidade e Fidelidade Técnica,🛡️,Audita veracidade factual, Design System, contraste WCAG AA e gramática pt-BR
+./agents/paulo-publicador.agent.md,Paulo Publicador,Especialista de Publicação no Instagram,🚀,Apresenta Publish Preview, executa dry-run e publica no @maximus.pericias
+

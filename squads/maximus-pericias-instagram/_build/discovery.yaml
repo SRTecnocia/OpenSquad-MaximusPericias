@@ -1,0 +1,47 @@
+squad_code: "maximus-pericias-instagram"
+purpose: "Analisar a página https://pericias.btech.inf.br e os vídeos em d:/Projetos/SRTecnoCIA/OpenSquadMaximusPericias/Vídeos com as funcionalidades do software e, usando as técnicas mais avançadas e atuais de branding, posicionamento e inteligência sintética, criar publicações de Feed, Reels e Stories com a mesma identidade visual para o Instagram https://www.instagram.com/maximus.pericias/"
+domain: "content"
+
+company:
+  name: "Maximus Perícias (Bureau Tech Forensic Systems)"
+  tone: "Minimalismo cirúrgico, provocador, técnico e orientado à soberania operacional (estilo Steve Jobs)"
+  products: "Maximus Perícias - O Primeiro Sistema Operacional completo para Peritos Judiciais (Proprietários/Titulares e Terceirizados/Prestadores B2B) e Assistentes Técnicos"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Ecossistema Completo: Peritos Proprietários (Titulares de Carteira), Peritos Terceirizados (Prestadores B2B / Perito de Elite) e Autoridade Institucional"
+  platforms: "Instagram (@maximus.pericias)"
+  tone: "Direto, provocador, minimalista, técnico, narrativa em 3 atos (Origem, Conflito e Transformação)"
+
+tools_needed:
+  - "image-fetcher"
+  - "template-designer"
+  - "image-creator"
+  - "image-ai-generator"
+  - "instagram-publisher"
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/maximus.pericias/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/aurum.br/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/projurisbrasil/"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/p/DeD_eRdsEMR/"
+      platform: "instagram"
+      investigation_mode: "single_post"
+    - url: "https://www.instagram.com/p/DXbuHlNDhWO/"
+      platform: "instagram"
+      investigation_mode: "single_post"
+
+target_formats:
+  - "instagram-feed"
+  - "instagram-reels"
+  - "instagram-stories"
+

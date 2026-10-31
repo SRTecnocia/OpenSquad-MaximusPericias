@@ -1,0 +1,77 @@
+code: "maximus-pericias-instagram"
+name: "Esquadrão Maximus Perícias Instagram (Feed, Reels & Stories)"
+description: "Analisa a página https://pericias.btech.inf.br e os vídeos oficiais para criar, renderizar e publicar conteúdos de Feed, Reels e Stories no Instagram @maximus.pericias com a identidade visual oficial e posicionamento de elite."
+icon: "⚖️"
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - image-fetcher
+  - template-designer
+  - image-creator
+  - image-ai-generator
+  - instagram-publisher
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/visual-identity.md
+  - pipeline/data/template-reference.html
+
+pipeline:
+  entry: "pipeline/pipeline.yaml"
+  steps:
+    - id: "step-01-research-focus"
+      file: "pipeline/steps/step-01-research-focus.md"
+      type: "checkpoint"
+    - id: "step-02-extract-intelligence"
+      file: "pipeline/steps/step-02-extract-intelligence.md"
+      type: "agent"
+      agent: "mario-minerador"
+    - id: "step-03-generate-angles"
+      file: "pipeline/steps/step-03-generate-angles.md"
+      type: "agent"
+      agent: "breno-branding"
+    - id: "step-04-select-angle-and-tone"
+      file: "pipeline/steps/step-04-select-angle-and-tone.md"
+      type: "checkpoint"
+    - id: "step-05-create-feed"
+      file: "pipeline/steps/step-05-create-feed.md"
+      type: "agent"
+      agent: "flavio-feed"
+      format: "instagram-feed"
+    - id: "step-06-create-reels"
+      file: "pipeline/steps/step-06-create-reels.md"
+      type: "agent"
+      agent: "renato-reels"
+      format: "instagram-reels"
+    - id: "step-07-create-stories"
+      file: "pipeline/steps/step-07-create-stories.md"
+      type: "agent"
+      agent: "soraia-stories"
+      format: "instagram-stories"
+    - id: "step-08-approve-content"
+      file: "pipeline/steps/step-08-approve-content.md"
+      type: "checkpoint"
+    - id: "step-09-render-visuals"
+      file: "pipeline/steps/step-09-render-visuals.md"
+      type: "agent"
+      agent: "davi-designer"
+    - id: "step-10-review-campaign"
+      file: "pipeline/steps/step-10-review-campaign.md"
+      type: "agent"
+      agent: "vera-veredito"
+      on_reject: "step-05-create-feed"
+    - id: "step-11-approve-final-assets"
+      file: "pipeline/steps/step-11-approve-final-assets.md"
+      type: "checkpoint"
+    - id: "step-12-publish-instagram"
+      file: "pipeline/steps/step-12-publish-instagram.md"
+      type: "agent"
+      agent: "paulo-publicador"
+

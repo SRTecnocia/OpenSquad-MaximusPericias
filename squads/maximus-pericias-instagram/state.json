@@ -1,0 +1,125 @@
+{
+  "squad": "maximus-pericias-instagram",
+  "status": "completed",
+  "step": {
+    "current": 12,
+    "total": 12,
+    "label": "step-12-publish-instagram-escala-5x2"
+  },
+  "agents": [
+    {
+      "id": "mario-minerador",
+      "name": "Mário Minerador",
+      "icon": "🔍",
+      "status": "done",
+      "desk": {
+        "col": 1,
+        "row": 1
+      }
+    },
+    {
+      "id": "breno-branding",
+      "name": "Breno Branding",
+      "icon": "🧠",
+      "status": "done",
+      "desk": {
+        "col": 2,
+        "row": 1
+      }
+    },
+    {
+      "id": "flavio-feed",
+      "name": "Flávio Feed",
+      "icon": "📱",
+      "status": "done",
+      "desk": {
+        "col": 3,
+        "row": 1
+      }
+    },
+    {
+      "id": "renato-reels",
+      "name": "Renato Reels",
+      "icon": "🎬",
+      "status": "done",
+      "desk": {
+        "col": 1,
+        "row": 2
+      }
+    },
+    {
+      "id": "soraia-stories",
+      "name": "Soraia Stories",
+      "icon": "⚡",
+      "status": "done",
+      "desk": {
+        "col": 2,
+        "row": 2
+      }
+    },
+    {
+      "id": "davi-designer",
+      "name": "Davi Designer",
+      "icon": "🎨",
+      "status": "done",
+      "desk": {
+        "col": 3,
+        "row": 2
+      }
+    },
+    {
+      "id": "vera-veredito",
+      "name": "Vera Veredito",
+      "icon": "⚖️",
+      "status": "done",
+      "desk": {
+        "col": 1,
+        "row": 3
+      }
+    },
+    {
+      "id": "paulo-publicador",
+      "name": "Paulo Publicador",
+      "icon": "🚀",
+      "status": "done",
+      "desk": {
+        "col": 2,
+        "row": 3
+      }
+    }
+  ],
+  "handoff": {
+    "from": "vera-veredito",
+    "to": "paulo-publicador",
+    "message": "Campanha completa Tema 02 (Engenharia Financeira & Blindagem de Alvarás) publicada com sucesso no Feed, Reels e Stories com Destaque Alvarás criado em @maximus.pericias.",
+    "completedAt": "2026-10-31T11:28:00-03:00"
+  },
+  "campaign": {
+    "id": "2026-10-31-tema-02-alvaras",
+    "theme": "Gestão Financeira Forense & Blindagem de Alvarás (Cálculo Tributário Automático & Funil de 4 Etapas)",
+    "aesthetic": "Clean Light Editorial (100% Claro, Alto Contraste, Janelas macOS, 16:9 Nativo)",
+    "voiceover": "Narrador Documental Grave / Storytelling (estilo @obrandingg com masterização broadcast)",
+    "publications": {
+      "feed": {
+        "format": "Carrossel 8 Slides (1080x1440 4:5)",
+        "permalink": "https://www.instagram.com/p/DfKVnkGoFlC/",
+        "status": "published"
+      },
+      "reels": {
+        "format": "Vídeo Vertical (1080x1920 9:16) com Demonstração e Locução Documental (Enquadramento Desktop 16:9 100% visível)",
+        "permalink": "https://www.instagram.com/reel/DfKXArSTvlt/",
+        "status": "published"
+      },
+      "stories": {
+        "format": "Sequência de 6 Stories (1080x1920)",
+        "count": 6,
+        "highlight": "Alvarás",
+        "highlightId": "18026568995868728",
+        "status": "published"
+      }
+    }
+  },
+  "startedAt": "2026-10-31T09:40:00-03:00",
+  "completedAt": "2026-10-31T10:12:00-03:00",
+  "updatedAt": "2026-10-31T11:28:00-03:00"
+}

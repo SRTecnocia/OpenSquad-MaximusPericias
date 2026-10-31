@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px;
+    height: 1920px;
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #0F172A;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Painel Superior (0 a 504px) */
+  .panel-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    height: 504px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 85%, #F1F5F9 100%);
+    padding: 70px 48px 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .glow-green {
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(22, 163, 74, 0.12) 0%, rgba(22, 163, 74, 0) 70%);
+    pointer-events: none;
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .brand-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #16A34A 0%, #0D9488 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(22, 163, 74, 0.25);
+  }
+  .brand-text-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .brand-name {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #0F172A;
+  }
+  .brand-sub {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #64748B;
+    text-transform: uppercase;
+  }
+  .badge-tag {
+    background: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    color: #15803D;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .headline-group {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .main-title {
+    font-size: 38px;
+    line-height: 1.15;
+    font-weight: 800;
+    color: #0F172A;
+    letter-spacing: -1px;
+  }
+  .main-title .green {
+    color: #16A34A;
+  }
+  .main-title .blue {
+    color: #2563EB;
+  }
+  .subtitle {
+    font-size: 20px;
+    line-height: 1.35;
+    color: #475569;
+    font-weight: 450;
+  }
+
+  /* Barra Superior da Janela macOS (altura 44px, de y=460 a 504) */
+  .window-top-bar {
+    width: 984px;
+    height: 44px;
+    background: #F1F5F9;
+    border-top: 1.5px solid #CBD5E1;
+    border-left: 1.5px solid #CBD5E1;
+    border-right: 1.5px solid #CBD5E1;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 8px;
+    position: relative;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  .dot.red { background: #EF4444; }
+  .dot.yellow { background: #F59E0B; }
+  .dot.green { background: #10B981; }
+  .window-url {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748B;
+    background: #FFFFFF;
+    padding: 3px 20px;
+    border-radius: 6px;
+    border: 1px solid #E2E8F0;
+    letter-spacing: 0.3px;
+  }
+
+  /* Pilares laterais (y: 504 a 1058, altura = 554px) */
+  .panel-left {
+    position: absolute;
+    top: 504px;
+    left: 0;
+    width: 48px;
+    height: 554px;
+    background: #F8FAFC;
+    border-right: 1.5px solid #CBD5E1;
+  }
+  .panel-right {
+    position: absolute;
+    top: 504px;
+    left: 1032px;
+    width: 48px;
+    height: 554px;
+    background: #F8FAFC;
+    border-left: 1.5px solid #CBD5E1;
+  }
+
+  /* Painel Inferior (y: 1058 a 1920) */
+  .panel-bottom {
+    position: absolute;
+    top: 1058px;
+    left: 0;
+    width: 1080px;
+    height: 862px;
+    background: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
+    padding: 0 48px 80px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .window-bottom-bar {
+    width: 984px;
+    height: 16px;
+    background: #F1F5F9;
+    border-bottom: 1.5px solid #CBD5E1;
+    border-left: 1.5px solid #CBD5E1;
+    border-right: 1.5px solid #CBD5E1;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 16px 30px -10px rgba(15, 23, 42, 0.08);
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .feature-card {
+    background: #FFFFFF;
+    border: 1.5px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 22px 18px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .feat-tag {
+    font-size: 11px;
+    font-weight: 800;
+    color: #16A34A;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+  .feat-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0F172A;
+    line-height: 1.25;
+  }
+  .feat-desc {
+    font-size: 13.5px;
+    color: #64748B;
+    line-height: 1.4;
+  }
+
+  /* Barra de Chamada CTA */
+  .cta-bar {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+    border-radius: 18px;
+    padding: 22px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 16px 32px rgba(15, 23, 42, 0.18);
+  }
+  .cta-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .cta-label {
+    font-size: 13px;
+    color: #94A3B8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .cta-url {
+    font-size: 22px;
+    font-weight: 800;
+    color: #4ADE80;
+    letter-spacing: 0.3px;
+  }
+  .cta-button {
+    background: #16A34A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 28px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 16px rgba(22, 163, 74, 0.4);
+  }
+</style>
+</head>
+<body>
+
+  <!-- Topo -->
+  <div class="panel-top">
+    <div class="glow-green"></div>
+    <div class="header-content">
+      <div class="brand-row">
+        <div class="brand-logo">
+          <div class="logo-icon">M</div>
+          <div class="brand-text-col">
+            <span class="brand-name">MAXIMUS PERÍCIAS</span>
+            <span class="brand-sub">SISTEMA OPERACIONAL FORENSE</span>
+          </div>
+        </div>
+        <div class="badge-tag">ENGENHARIA DE ALVARÁS</div>
+      </div>
+
+      <div class="headline-group">
+        <h1 class="main-title">R$ 50 mil arbitrados = <span class="green">R$ 44.341,14 líquidos</span></h1>
+        <p class="subtitle">Calculadora tributária automática: teto do INSS, IRRF e ISS apurados na hora.</p>
+      </div>
+    </div>
+
+    <!-- Barra Superior da Janela -->
+    <div class="window-top-bar">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+      <div class="window-url">maximus.app • financeiro • calculo-alvaras-tributos</div>
+    </div>
+  </div>
+
+  <!-- Laterais -->
+  <div class="panel-left"></div>
+  <div class="panel-right"></div>
+
+  <!-- Base -->
+  <div class="panel-bottom">
+    <!-- Barra Inferior da Janela -->
+    <div class="window-bottom-bar"></div>
+
+    <div class="footer-content">
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feat-tag">Teto do INSS</span>
+          <h4 class="feat-title">Trava em R$ 908,86</h4>
+          <p class="feat-desc">Zero retenção indevida ou duplicada entre varas.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feat-tag">IRRF & ISSQN</span>
+          <h4 class="feat-title">Alíquotas Exatas</h4>
+          <p class="feat-desc">Cálculo instantâneo de retenções legais na fonte.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feat-tag">Funil 4 Etapas</span>
+          <h4 class="feat-title">Rastreio Total</h4>
+          <p class="feat-desc">Do arbitramento ao alvará levantado via PIX.</p>
+        </div>
+      </div>
+
+      <div class="cta-bar">
+        <div class="cta-left">
+          <span class="cta-label">Crie sua conta gratuita</span>
+          <span class="cta-url">pericias.btech.inf.br</span>
+        </div>
+        <div class="cta-button">
+          Toque na Bio &rarr;
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px;
+    height: 1920px;
+    background: #080D1A;
+    background-image: 
+      radial-gradient(ellipse 80% 45% at 50% -5%, rgba(37, 99, 235, 0.25) 0%, rgba(8, 13, 26, 0) 100%),
+      radial-gradient(ellipse 60% 40% at 90% 95%, rgba(30, 58, 138, 0.18) 0%, rgba(8, 13, 26, 0) 100%);
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding: 130px 48px 120px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .top-bar { display: flex; justify-content: space-between; align-items: center; }
+  .brand-group { display: flex; align-items: center; gap: 14px; }
+  .brand-logo { height: 46px; width: auto; filter: drop-shadow(0 4px 12px rgba(37, 99, 235, 0.4)); }
+  .brand-text { display: flex; flex-direction: column; gap: 2px; }
+  .brand-title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .brand-sub { font-size: 12px; font-weight: 600; color: #64748B; letter-spacing: 0.08em; }
+  .badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #38BDF8;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .header-content { margin-top: 10px; display: flex; flex-direction: column; gap: 12px; }
+  .header-step { font-size: 13px; font-weight: 700; color: #38BDF8; letter-spacing: 0.12em; text-transform: uppercase; }
+  .header-title {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+  }
+  .header-title .green { color: #4ADE80; }
+  .header-desc { font-size: 22px; font-weight: 500; line-height: 1.4; color: #94A3B8; }
+
+  /* MOCKUP WINDOW (o vídeo fica dentro desta área) */
+  .window-mockup {
+    width: 984px;
+    height: 600px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 35px 70px -15px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .window-header {
+    height: 42px;
+    background: #0F172A;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .window-dots { display: flex; gap: 8px; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; }
+  .dot-red { background: #FF5F56; }
+  .dot-yellow { background: #FFBD2E; }
+  .dot-green { background: #27C93F; }
+  .window-title { margin-left: 16px; font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; color: #64748B; }
+  .window-viewport {
+    flex: 1;
+    background: transparent; /* Transparente para o vídeo aparecer */
+  }
+
+  .kpis-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 14px;
+  }
+  .kpi-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 16px 18px;
+    backdrop-filter: blur(12px);
+  }
+  .kpi-val {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+  }
+  .kpi-val.blue { color: #38BDF8; }
+  .kpi-val.green { color: #4ADE80; }
+  .kpi-val.gold { color: #FBBF24; }
+  .kpi-lbl { font-size: 12px; font-weight: 600; color: #94A3B8; margin-top: 4px; line-height: 1.3; }
+
+  .bottom-cta {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, rgba(30, 58, 138, 0.2) 100%);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 20px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+  .cta-text { font-size: 18px; font-weight: 600; color: #FFFFFF; }
+  .cta-btn {
+    background: #38BDF8;
+    color: #080D1A;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="brand-group">
+      <img src="file:///D:/Projetos/SRTecnoCIA/OpenSquadMaximusPericias/squads/maximus-pericias-instagram/references/logos/logo-icon-transparent.png" class="brand-logo" alt="Maximus Perícias" />
+      <div class="brand-text">
+        <span class="brand-title">MAXIMUS PERÍCIAS</span>
+        <span class="brand-sub">SISTEMA OPERACIONAL FORENSE</span>
+      </div>
+    </div>
+    <div class="badge">Gestão Financeira</div>
+  </div>
+
+  <div class="header-content">
+    <div class="header-step">Engenharia de Alvarás Judiciais</div>
+    <h1 class="header-title">R$ 50 mil arbitrados = <span class="green">R$ 44.341,14 líquidos</span>.</h1>
+    <p class="header-desc">Cálculo instantâneo de IRRF, ISSQN e trava automática do teto do INSS.</p>
+  </div>
+
+  <div class="window-mockup" id="mockupWindow">
+    <div class="window-header">
+      <div class="window-dots">
+        <div class="dot dot-red"></div>
+        <div class="dot dot-yellow"></div>
+        <div class="dot dot-green"></div>
+      </div>
+      <span class="window-title">maximus.app • financeiro • calculo-alvaras-tributos</span>
+    </div>
+    <div class="window-viewport"></div>
+  </div>
+
+  <div class="kpis-grid">
+    <div class="kpi-card">
+      <div class="kpi-val blue">R$ 908,86</div>
+      <div class="kpi-lbl">Trava Teto INSS</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val green">4 Fases</div>
+      <div class="kpi-lbl">Arbitrado ao PIX</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-val gold">Art. 465 CPC</div>
+      <div class="kpi-lbl">Horas Técnicas</div>
+    </div>
+  </div>
+
+  <div class="bottom-cta">
+    <span class="cta-text">pericias.btech.inf.br</span>
+    <span class="cta-btn">Toque na Bio</span>
+  </div>
+</body>
+</html>
+

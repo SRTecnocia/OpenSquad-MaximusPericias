@@ -1,0 +1,15 @@
+file 'reels-cover.png'
+duration 5
+file 'story-01.png'
+duration 5
+file 'story-02.png'
+duration 5
+file 'story-03.png'
+duration 5
+file 'story-04.png'
+duration 5
+file 'story-05.png'
+duration 5
+file 'story-06.png'
+duration 5
+file 'story-06.png'

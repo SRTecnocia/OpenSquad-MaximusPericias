@@ -1,0 +1,549 @@
+volume_off
+MUDO
+MAXIMUS PERÍCIAS
+INFRAESTRUTURA DE DADOS
+Seus dados blindados sob padrão internacional.
+
+Segurança de nível bancário e conformidade estrita com as leis de dados forenses nacionais.
+
+verified_user
+PROTOCOLO DE SEGURANÇA ATIVO
+dark_mode
+Modo Escuro
+shield
+Seus dados blindados
+AES-256
+
+Segurança de nível bancário com infraestrutura redundante e auditoria em tempo real para sua total tranquilidade operacional.
+
+enhanced_encryption
+Criptografia Avançada
+TLS 1.3
+policy
+Conformidade LGPD
+Art. 473
+admin_panel_settings
+Dados Anonimizados
+ISO 27001
+dns
+Infraestrutura Segura
+DDoS Mitigation
+
+CERTIFICAÇÕES E PADRÕES ATENDIDOS
+
+lock_open
+SSL/TLS 256-bit
+gavel
+LGPD Compliant
+backup
+Backups Diários
+network_intelligence_update
+Monitoramento 24/7
+Não mostrar esta apresentação de segurança novamente
+Acessar a Landing Page
+arrow_right_alt
+Método
+Módulos
+Ecossistema B2B
+psychology
+MAX AI
+table_chart_view
+Relatórios
+Segurança
+dark_mode
+admin_panel_settings
+Admin
+Entrar
+Começar
+workspace_premium
+Perito de Elite ➔
+ECOSSISTEMA CORPORATIVO JUDICIAL
+O Primeiro Sistema Operacional para Peritos Judiciais.
+
+Unifique sua operação, elimine planilhas paralelas e alcance precisão absoluta na redação de laudos e gerenciamento de prazos processuais.
+
+Começar Evolução
+play_circle
+Como Funciona
+95%
+Redução Operacional
+↑ 95%
+
+Otimização completa na extração e leitura de autos pelo IBM Docling integrado.
+
+3X
+Faturamento Escalado
+↑ 300%
+
+Peritos gerenciam três vezes mais processos judiciais sem inflar a equipe de assistentes.
+
+100%
+Soberania Forense
+
+Dados armazenados em servidores criptografados em conformidade rigorosa à LGPD.
+
+CONVERGÊNCIA ABSOLUTA
+12 Módulos integrados.
+Uma única central de inteligência.
+folder_managed
+CORE SYSTEM
+Gestão de Processos
+
+Visibilidade unificada dos processos cadastrados em qualquer tribunal (PJe, e-SAJ, Eproc, Projudi e MNI). Acompanhe todas as etapas do ciclo pericial em um painel interativo unificado.
+
+gavel
+Diário de Justiça
+
+Monitoramento diário autônomo de publicações e novas nomeações do perito através de inteligência de rastreamento.
+
+alarm
+Prazos CPC
+
+Cálculo automático de dias úteis periciais com alertas graduais baseados no CPC (7, 3 e 1 dias de antecedência).
+
+calculate
+Cálculos Financeiros
+
+Motor de cálculos embutido para liquidação de sentenças judiciais, atualizações por SELIC, IPCA e taxas bancárias complexas.
+
+psychology
+AI-CORE
+Laudos com IA (Docling & Copiloto)
+
+Geração contextual baseada em RAG de laudos técnicos completos formatados conforme normas ABNT e Art. 473 do CPC. A IA analisa quesitos e fundamenta as respostas tecnicamente.
+
+cloud
+Cloud Forense
+
+Armazenamento blindado de documentos judiciais com OCR e indexação de linha integrado para pesquisas instantâneas.
+
+calendar_today
+Agenda Sync
+
+Sincronização bidirecional de vistorias periciais, audiências judiciais e prazos de manifestações.
+
+payments
+Financeiro & Alvarás
+
+Controle integrado de levantamento de alvarás judiciais, propostas de honorários e rentabilidade do escritório.
+
+forum
+Max AI
+
+Colaboração em tempo real no histórico do processo judicial com assistente de IA focado no caso.
+
+dashboard_customize
+Kanban de Tarefas
+
+Divisão de tarefas de digitação, cálculos e vistorias para sua equipe de assistentes técnicos.
+
+vpn_key
+Gestão de Acessos
+
+Permissões finas com base em papéis (Perito Titular, Assistente Técnico e Digitador).
+
+query_stats
+NOVO STUDIO
+BI & Gerador de Relatórios
+arrow_forward
+
+Consultas visuais multi-tabela, joins relacionais, data grid analítico e dashboards de rentabilidade por comarca.
+
+COOPERAÇÃO FLUIDA & MODELOS B2B
+Um sistema único.
+Dois modelos de empresa pericial.
+
+A Maximus Perícias foi arquitetada para atender tanto o perito titular de varas judiciais quanto as consultorias técnicas especializadas, conectando ambos em um ecossistema com isolamento multi-tenant estrito e faturamento automatizado.
+
+domain
+ORGANIZATION_TYPE.ESCRITORIO_PROPRIETARIO
+1. Escritório Proprietário (Titular)
+Titular de Nomeações
+
+Peritos Oficiais e Escritórios com carteira direta de nomeações em Varas Cíveis, Trabalhistas e Federais. Gerencia prazos e intimações via integrações diretas (PJe, e-SAJ, Eproc, Projudi, MNI & DJEN), lidera equipes internas e emite Ordens de Serviço B2B para terceirizar pareceres complexos.
+
+✓ Intimações Multi-Tribunais
+✓ Alvarás de Honorários
+✓ Gestão de Peritos & Digitadores
+hub
+ORGANIZATION_TYPE.ESCRITORIO_ESPECIALISTA
+2. Escritório Especialista (Consultoria B2B)
+Hub de Serviços B2B
+
+Consultorias técnicas e especialistas setoriais (Engenharia, Medicina, Contábil, Grafotécnica e TI) que atuam como Assistentes Técnicos das partes ou atendem demandas de outros escritórios periciais sob regime de prestação de serviços B2B.
+
+✓ Recepção de OS B2B
+✓ Pareceres & Quesitos Setoriais
+✓ Faturamento & Split Direto
+handshake
+ECOSSISTEMA B2B INTEGRADO
+3. A Sinergia: Cooperação Fluida & Segura
+Subcontratação & Homologação
+
+O Escritório Proprietário contrata pareceres específicos de um Escritório Especialista com SLA definido, governança LGPD, versionamento auditável de entregáveis e liquidação financeira automática, sem perda de controle do processo judicial.
+
+// FLUXO DO TITULAR
+4 ETAPAS • JUDICIAL
+Pipeline de Nomeação e Gestão de Varas
+gavel
+1. Captura Multi-Tribunais (PJe, e-SAJ, Eproc, Projudi, MNI)
+Nomeações unificadas, DJEN e prazos ativados
+check_circle
+sync
+2. OCR Docling & Triagem IA
+Indexação semântica e detecção de quesitos
+Processando
+groups
+3. Copiloto IA & Gestão de Equipe
+Redação ABNT e cálculos financeiros
+Pronto
+verified
+4. Assinatura Digital & Alvarás
+Protocolo no Tribunal e quitação
+verified
+Governança Multi-Tenant com RLS
+Audit Trail Ativo
+NEURAL FORENSIC COPILOT • RAG DEEP CONTEXT
+Conheça o MAX AI.
+O Primeiro Assistente Forense com Rigor Jurídico Absoluto.
+
+Treinado nas normas da ABNT, manuais dos conselhos profissionais (CFM, CREA, CFC, CAU) e no Art. 473 do CPC. O MAX AI extrai, correlaciona e minuta laudos em segundos, citando folhas e páginas reais dos autos.
+
+< 1.2s
+LATÊNCIA RAG
+100%
+ART. 473 CPC
+0%
+ALUCINAÇÃO
+10
+CAPÍTULOS ABNT
+auto_awesome
+SIMULADOR DE RACIOCÍNIO PERICIAL
+Experimente a precisão do MAX AI em casos reais
+construction
+Engenharia Civil
+clinical_notes
+Medicina Forense
+account_balance
+Perícia Bancária
+draw
+Grafotécnica
+COMANDO DO PERITO OFICIAL
+ABNT NBR 13.752 / NBR 14.653
+
+"Analise as fotos das vistorias e os relatórios das fls. 142-180 e responda ao quesito nº 3 da ré sobre a origem das fissuras na fachada sul."
+
+content_copy
+Copiar Exemplo
+Inteligência Contextual Ativa: Análise de patologias prediais, fissuras estruturais, infiltrações, desabamentos e avaliação imobiliária com fundamentação técnica.
+psychology
+Usar MAX AI nos Seus Processos
+verified_user
+MAX AI • RESULTADO TIMBRADO
+LAUDO PERICIAL DE ENGENHARIA — QUESITO Nº 3 DA RÉ
+Validado CPC
+1. METODOLOGIA CIENTÍFICA APLICADA
+
+Inspeção predial visual e termográfica conforme diretrizes do IBAPE e ABNT NBR 13.752.
+
+2. EXAME DOS ELEMENTOS DOS AUTOS
+
+Com base nas evidências fotográficas acostadas às fls. 148/152 e laudo técnico preliminar de fls. 175, as fissuras verticais com abertura de 1,2mm na alvenaria externa decorrem de recalque diferencial superficial decorrente de drenagem pluvial insuficiente, e não de sobrecarga de uso.
+
+attachment
+Fontes dos Autos: Fls. 148-152, Fls. 175-178 dos Autos Principais
+3. CONCLUSÃO TÉCNICA OBJETIVA
+
+Constatado vício construtivo endógeno de drenagem, sem risco iminente de colapso estrutural.
+
+Pronto para inserção no Laudo Oficial
+100% Auditável
+TAXONOMIA DE CAPACIDADES FORENSES
+6 Habilidades cognitivas que redefinem o trabalho do perito
+timeline
+01. VARREDURA DOCUMENTAL
+Linha do Tempo Fática & Controvérsias
+
+Varre petições, laudos e decisões de mais de 1.000 páginas pelo motor IBM Docling, organizando datas, fatos incontroversos e pontos que demandam prova técnica.
+
+IBM Docling OCR
+100% Estruturado
+quiz
+02. TRIAGEM PROCESSUAL
+Mapeamento & Resposta a Quesitos
+
+Identifica e separa automaticamente quesitos do Juízo, Autor, Réu e Assistentes Técnicos, formulando propostas técnicas fundamentadas com citação exata de folhas.
+
+Filtro por Origem
+Zero Omissões
+article
+03. REDAÇÃO FORENSE
+Laudo Completo nos 10 Capítulos
+
+Elabora a minuta completa: Identificação, Objeto, Histórico, Diligências, Metodologia, Análise Técnica, Resposta aos Quesitos e Conclusão, formatado no padrão ABNT.
+
+Norma ABNT NBR
+Timbrado Oficial
+photo_camera
+04. VISÃO COMPUTACIONAL
+Laudos de Imagens & Patologias
+
+Examina relatórios fotográficos de vistorias, descrevendo patologias prediais, avarias, lesões corporais e anomalias com vocabulário técnico estrito.
+
+Descrição Técnica
+Evidência Visual
+calculate
+05. MOTOR MATEMÁTICO
+Memória de Cálculo Auditável
+
+Gera tabelas de liquidação de sentença com fórmulas explícitas, juros compostos/simples, Tabela Price, SAC, SELIC e expurgos inflacionários sem erros materiais.
+
+Fórmulas Abertas
+Auditabilidade
+gavel
+06. CONFORMIDADE NORMATIVA
+Confronto de Precedentes & Normas
+
+Confronta o laudo com súmulas do STJ/STF, temas repetitivos e resoluções dos conselhos de classe (CFM, CREA, CFC, CAU), garantindo blindagem contra impugnações.
+
+STJ / STF / Conselhos
+Anti-Impugnação
+security
+CÓDIGO DE ÉTICA & SALVAGUARDAS DA IA FORENSE
+Por que magistrados e peritos confiam no MAX AI?
+
+Diferente de IAs genéricas de mercado que inventam dados, o MAX AI opera sob 4 travas invioláveis de integridade pericial.
+
+verified
+1. Soberania Estrita dos Autos
+
+Toda afirmação técnica requer citação explícita do documento e folha correspondente nos autos. Se uma prova não existir no processo, a IA recusa qualquer inferência especulativa.
+
+balance
+2. Não-Jurisdicionalidade (Art. 473 § 2º CPC)
+
+A IA é programada para não emitir juízos de valor sobre matérias de direito ou julgar o mérito da lide, restringindo-se à constatação fática de competência do perito.
+
+science
+3. Método Científico Comprovado (Art. 473 § 1º)
+
+Todas as análises indicam nominalmente o método científico aceito pela comunidade técnica de referência (ABNT, IBAPE, CFM, CFC), detalhando o passo a passo.
+
+lock
+4. Isolamento LGPD & Segredo de Justiça
+
+Os documentos processuais processados pelo MAX AI permanecem em tenant isolado (RLS PostgreSQL Neon) e nunca são utilizados para treinamento de modelos públicos.
+
+VANTAGENS COMPETITIVAS & ROI
+A revolução operacional no seu gabinete pericial
+cancel
+Método Tradicional
+close
+15 a 30 horas gastas na triagem de autos volumosos e digitação manual de laudo.
+close
+Risco constante de omissão de quesitos de assistentes técnicos anexados em petições avulsas.
+close
+Planilhas financeiras paralelas suscetíveis a erros materiais de fórmula e expurgos.
+close
+Formatos despadronizados gerando pedidos de esclarecimentos e impugnações.
+check_circle
+Método com MAX AI
+done_all
+Menos de 45 minutos para ter a minuta completa estruturada com citação de folhas.
+done_all
+100% dos quesitos mapeados e categorizados automaticamente por origem.
+done_all
+Motor matemático auditável integrado com reconstituição automática de conta gráfica.
+done_all
+Laudos timbrados no padrão ABNT, reduzindo em até 90% as impugnações das partes.
+psychology
+Pronto para elevar a produtividade do seu gabinete pericial?
+
+Junte-se aos peritos de elite que já utilizam o MAX AI para entregar laudos irretocáveis na metade do tempo.
+
+Solicitar Acesso Antecipado ao MAX AI
+Já sou Credenciado ➔
+DYNAMIC REPORT ENGINE • BUSINESS INTELLIGENCE FORENSE
+Gerador Visual Inteligente de Relatórios & Formulários.
+
+Chega de planilhas engessadas e relatórios manuais. Crie consultas sob medida sobre qualquer entidade do sistema com schema introspection, joins relacionais automáticos, exportação multiformato e 3 modos de visualização instantânea.
+
+100%
+TABELAS DO BANCO
+3 Modos
+GRID • FICHA • DASHBOARD
+Joins 1:N
+RELACIONAIS SEGUROS
+< 15ms
+QUERY EXECUTION
+table_chart_view
+STUDIO DE CONSULTA VISUAL & BUSINESS INTELLIGENCE
+Processos Periciais — Visualização Dinâmica
+table_rows
+Data Grid
+article
+Ficha / Formulário
+bar_chart
+Dashboard BI
+verified_user
+AVISO DE CONFORMIDADE LGPD & INTEGRIDADE FORENSE:
+DADOS MERAMENTE FICTÍCIOS
+
+Todos os dados expostos nesta demonstração interativa (números de processos judiciais, nomes de partes, comarcas, varas, peritos nomeados, registros de classe e valores de honorários) são estritamente fictícios e meramente ilustrativos, concebidos unicamente para fins de validação visual dos recursos de inteligência da plataforma.
+
+SELECIONE A TABELA DE ORIGEM DO SISTEMA:
+folder_managed
+Processos Periciais
+alarm
+Prazos & Intimações CPC
+payments
+Financeiro & Alvarás Judiciais
+calendar_today
+Diligências & Vistorias
+description
+Laudos & Pareceres Judiciais
+psychology
+COPILOT IA DO GERADOR DE RELATÓRIOS
+NLP to Query
+Digite em português ou escolha os comandos sugeridos abaixo
+search
+content_copy
+Copiar
+auto_awesome
+Executar Consulta
+hub
+Joins Relacionais Mapeados:
+link
+Perito Nomeado (User)
+link
+Comarca & Vara Judicial
+link
+Cliente / CRM
+link
+Prazos Vinculados
+link
+Honorários (Transações)
+FILTRO:
+TODOS
+CAPITAL
+INTERIOR
+PRIORIDADE ALTA
+csv
+Exportar CSV
+picture_as_pdf
+PDF Editorial
+info
+DADOS MERAMENTE FICTÍCIOS
+Simulação ilustrativa de registros para teste de introspecção
+swipe
+Deslize horizontalmente para visualizar colunas completas
+NÚMERO DO PROCESSO	TRIBUNAL / COMARCA	VARA JUDICIAL	PERITO TITULAR	FASE PROCESSUAL	HONORÁRIOS ESTIMADOS
+1002345-88.2026.8.26.0114 (Fictício)	TJSP • Comarca de Campinas	2ª Vara Cível	Dr. Roberto Silveira (Perito Fictício)	
+Laudo em Elaboração	R$ 18.500,00
+0010892-14.2026.5.02.0045 (Fictício)	TRT2 • Capital / Barra Funda	45ª Vara do Trabalho	Dra. Camila Vasconcelos (Perita Fictícia)	
+Quesitos Respondidos	R$ 12.000,00
+5001204-77.2026.4.03.6105 (Fictício)	TRF3 • Subseção Campinas	1ª Vara Federal	Dr. Roberto Silveira (Perito Fictício)	
+Aguardando Alvará	R$ 24.800,00
+1014522-30.2026.8.26.0100 (Fictício)	TJSP • Foro Central João Mendes	14ª Vara Cível	Dr. Marcelo Fontes (Perito Fictício)	
+Homologação Pendente	R$ 32.400,00
+Exibindo 4 de 142 registros
+•
+Total Somado: R$ 87.700,00
+*Dados 100% fictícios criados para simulação
+Anterior
+1 / 36
+Próxima
+Query Engine Ativo • Compatível com Neon PostgreSQL & Prisma ORM
+Acessar Gerador no Sistema
+arrow_forward
+chat
+Falar com Consultor
+INFRAESTRUTURA DE ELITE & CUSTÓDIA FORENSE
+Segurança de Nível Militar & Escalabilidade Serverless
+
+Tratamos a custódia dos dados processuais, autos judiciais e prontuários periciais com a mais alta seriedade técnica e conformidade legal. Nossa engenharia implementa o princípio de Privacy by Design and by Default sob os mais rigorosos padrões criptográficos do NIST, OWASP e da LGPD (Lei nº 13.709/2018).
+
+enhanced_encryption
+Criptografia em Nível de Campo (AES-256-GCM)
+
+Campos sensíveis de laudos, anamneses, diagnósticos médicos e registros OAB/CRM/CREA são cifrados antes da persistência no Neon DB em formato blindado (enc:v1:iv:tag:cipher), ilegíveis mesmo com acesso SQL direto.
+
+verified
+Padrão NIST & OWASP SP 800-38D
+key
+Autenticação Irreversível (PBKDF2-SHA512)
+
+Senhas protegidas com 100.000 iterações de HMAC-SHA512 e salt criptográfico individual. Função matemática unidirecional irreversível: a senha original é destruída na origem e nunca é conhecida nem recuperável pela plataforma.
+
+lock_reset
+100.000 Iterações • Zero Plaintext
+security
+Garantia Anti-Adulteração (MAC HMAC-SHA256)
+
+Assinatura de linha (integritySignature) e authTag de 128 bits. Se qualquer invasor ou agente tentar forçar updates em papéis ou e-mails via SQL, a aplicação detecta a adulteração na hora, revoga a sessão e aciona alerta de segurança.
+
+shield
+Impossibilidade de Manipulação Direta
+link
+Custódia Forense Imutável (AuditLog Hash-Chain)
+
+Trilhas de auditoria encadeadas onde cada log armazena o hash criptográfico do registro anterior (previousHash). Torna-se matematicamente impossível alterar, truncar ou injetar registros sem quebrar a cadeia de custódia pericial.
+
+history_edu
+Cadeia de Custódia Pericial Válida em Juízo
+manage_search
+Busca Segura em < 5ms (Blind Index B-Tree)
+
+Identificadores pessoais (CPF e CNPJ) cifrados com AES-256-GCM associados a um índice cego determinístico HMAC-SHA256 em coluna B-Tree. Busca instantânea em complexidade $O(\log N)$ mesmo entre milhões de registros sem expor os documentos em texto puro.
+
+speed
+Busca Cega O(log N) em Milissegundos
+health_and_safety
+Proteção Especial a Dados Sensíveis (LGPD Art. 5º, II)
+
+Tratamento de extrema sensibilidade para perícias médicas de saúde (anamnese clínica, exames físicos e códigos CID-10/11), credenciais judiciais (PJe/Projudi) e sigilo bancário sob controle estrito de RBAC e trilhas de auditoria.
+
+verified_user
+Sigilo Absoluto & Segredo de Justiça
+policy
+TRANSPARÊNCIA INSTITUCIONAL & GOVERNANÇA LGPD
+ANPD CONFORME
+Deseja conhecer a matriz técnica de tratamento e proteção de dados em detalhes?
+
+A Bureau Tech Tecnologia da Informação (CNPJ 61.382.281/0001-89, Recife/PE) disponibiliza publicamente a íntegra de suas medidas de segurança, as 3 categorias arquiteturais de performance e a matriz de proteção dos 5 módulos periciais em nosso instrumento oficial.
+
+verified_user
+Ver Política de Privacidade & Proteção de Dados
+arrow_forward
+ECOSSISTEMA CLOUD SERVERLESS DE ALTA DISPONIBILIDADE
+cloud_upload
+VERCEL
+database
+NEON DB
+cloud
+CLOUDFLARE R2
+settings_suggest
+HYBRID CLOUD
+O futuro da perícia judicial é agora.
+
+Faça parte da elite de peritos judiciais do Brasil. Centralize, otimize e proteja sua operação forense na plataforma de maior prestígio do mercado.
+
+Agendar Demo Gratuita
+chat
+Falar com Consultor
+POLÍTICA DE PRIVACIDADE
+TERMOS DE USO
+SUPORTE
+© 2026 MAXIMUS PERÍCIAS. TODOS OS DIREITOS RESERVADOS.
+cookie
+Privacidade & Cookies LGPD
+LEI 13.709
+
+Utilizamos cookies e tecnologias seguras para assegurar a autenticação do perito, estabilidade da sessão e integridade das perícias. Você pode personalizar suas preferências a qualquer momento.
+
+Ler Política Completa
+•
+Preferências Detalhadas
+Apenas Essenciais
+Personalizar
+Aceitar Todos
