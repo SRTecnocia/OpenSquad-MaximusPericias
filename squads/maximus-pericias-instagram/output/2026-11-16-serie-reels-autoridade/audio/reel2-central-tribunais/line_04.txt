@@ -1,0 +1,1 @@
+Automatize com a captura do Diário de Justiça e importação CNJ sem certificado. Prazos em dias úteis e recesso pelo artigo 220 do CPC.
